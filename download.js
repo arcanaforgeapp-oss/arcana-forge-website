@@ -16,7 +16,7 @@
     const release = Array.isArray(releases) && releases.find(item => item.tag_name === tag && !item.draft);
     const asset = release && release.assets.find(item => item.name === assetName && item.browser_download_url === expectedURL && item.size > 0);
     if (!asset) {
-      status.textContent = 'The Windows installer is being uploaded. This page will offer the download when publication completes.';
+      status.textContent = 'The Windows installer is being uploaded. Refresh this page after publication completes to download.';
       return;
     }
     link.href = expectedURL;
