@@ -1,0 +1,20 @@
+{
+  "site": "mldyaf.com",
+  "origins": [
+    "https://mldyaf.com",
+    "https://www.mldyaf.com"
+  ],
+  "pages": [
+    "/",
+    "/privacy",
+    "/refunds",
+    "/terms"
+  ],
+  "events": [
+    "preview_interaction",
+    "support_click",
+    "visit_labs",
+    "explore_preview",
+    "download_other"
+  ]
+}
