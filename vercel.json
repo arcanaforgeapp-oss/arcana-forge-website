@@ -25,11 +25,24 @@
           "value": "public, max-age=86400"
         }
       ]
+    },
+    {
+      "headers": [
+        {
+          "value": "noindex, nofollow",
+          "key": "X-Robots-Tag"
+        }
+      ],
+      "source": "/arcana-preview"
+    },
+    {
+      "headers": [
+        {
+          "value": "noindex, nofollow",
+          "key": "X-Robots-Tag"
+        }
+      ],
+      "source": "/arcana-preview/(.*)"
     }
-  ],
-  "functions": {
-    "api/visitors.mjs": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }

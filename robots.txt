@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /arcana-preview/
+Sitemap: https://www.mldyaf.com/sitemap.xml
